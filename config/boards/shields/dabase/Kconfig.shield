@@ -1,0 +1,5 @@
+config DABASE_LEFT
+    def_bool $(shields_list_contains,dabase_left)
+
+config DABASE_RIGHT
+    def_bool $(shields_list_contains,dabase_right)

@@ -1,8 +1,4 @@
-#include "dac_man_5x6.dtsi"
-
-&default_transform {
-    col-offset = <5>;
-};
+#include "dabase.dtsi"
 
 &kscan0 {
     col-gpios
@@ -14,6 +10,6 @@
         ;
 };
 
-&right_encoder {
+&left_encoder {
     status = "okay";
 };
